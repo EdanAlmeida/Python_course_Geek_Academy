@@ -79,8 +79,8 @@ def soma_impares(numeros):
     return total                     #cuidar da identação senão termina no primeiro for;
 
 
-lista = [1, 2, 3, 4, 5, 6, 7]
-tupla = 1, 2, 3, 4, 5, 6, 7, 8, 9
-
-print(soma_impares(lista))
-print(soma_impares(tupla))
+if __name__=="__main__":
+    lista = [1, 2, 3, 4, 5, 6, 7]
+    tupla = 1, 2, 3, 4, 5, 6, 7, 8, 9
+    print(soma_impares(lista))
+    print(soma_impares(tupla))
